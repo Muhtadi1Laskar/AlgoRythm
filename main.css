@@ -163,6 +163,9 @@
     .logo{
         width: 20rem;
     }
+    .header{
+        margin: 0;
+    }
     .btn-1, .btn-2 {
         border: 2px solid #1b518b;
         font-family: 'Titillium Web', sans-serif;
@@ -179,11 +182,15 @@
     }
     .main-body {
         padding: 1rem;
+        margin: 0;
     }
     .heading{
         font-size: 2rem;
     }
     .sub-heading{
         font-size: 3rem;
+    }
+    .left-content{
+        padding: 0;
     }
 }
