@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 *{
     box-sizing: border-box;
@@ -145,9 +146,26 @@
     color: #1f99fa;
 }
 
+.info-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-para {
+    font-family: 'Staatliches', cursive;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 20px;
+}
+
 @media screen and (max-width: 902px){
     .bg-image{
         display: none;
+    }
+    .logo{
+        margin-left: 8px;
     }
     .header{
         display: flex;
@@ -161,7 +179,8 @@
 }
 @media screen and (max-width: 509px){
     .logo{
-        width: 20rem;
+        width: 20rem;    
+        margin-left: 8px;
     }
     .header{
         margin: 0;
@@ -183,6 +202,7 @@
     .main-body {
         padding: 1rem;
         margin: 0;
+        margin-top: 4rem;
     }
     .heading{
         font-size: 2rem;
@@ -192,5 +212,8 @@
     }
     .left-content{
         padding: 0;
+    }
+    .muhtadi{
+        margin-right: 10px;
     }
 }
