@@ -155,9 +155,14 @@
 
 .info-para {
     font-family: 'Staatliches', cursive;
+    color: #1b518b;
     margin-top: 1rem;
     text-align: center;
     font-size: 20px;
+}
+
+.modal-title {
+    color: #1b518b;
 }
 
 @media screen and (max-width: 902px){
