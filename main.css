@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
-*{
+* {
     box-sizing: border-box;
 }
 
-.header{
+.header {
     width: 75%;
     margin: auto;
     display: flex;
@@ -16,11 +16,11 @@
     padding-top: 2rem;
 }
 
-.logo{
+.logo {
     width: 30rem;
 }
 
-.menu{
+.menu {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -30,9 +30,9 @@
 }
 
 .btn-1 {
-    border: 2px solid #1b518b;
+    border: 2px solid #398DE7;
     font-family: 'Titillium Web', sans-serif;
-    color: #1b518b;
+    color: #398DE7;
     font-size: 19px;
     text-decoration: none;
     padding: 5px 30px;
@@ -42,9 +42,9 @@
 }
 
 .btn-2 {
-    border: 2px solid #1b518b;
+    border: 2px solid #398DE7;
     font-family: 'Titillium Web', sans-serif;
-    color: #1b518b;
+    color: #398DE7;
     font-size: 19px;
     text-decoration: none;
     padding: 5px 30px;
@@ -57,6 +57,7 @@
     border: 3px solid #1f99fa;
     color: #1f99fa;
 }
+
 .btn-2:hover {
     border: 3px solid #1f99fa;
     color: #1f99fa;
@@ -66,7 +67,7 @@
     width: 75%;
     /* background: springgreen; */
     margin: auto;
-    padding-top:5.5rem;
+    padding-top: 5.5rem;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -74,7 +75,8 @@
 }
 
 .bg-image {
-    width: 33rem;
+    width: 35rem;
+    margin-right: -1rem;
 }
 
 .left-content {
@@ -83,41 +85,53 @@
     justify-content: flex-start;
     align-items: flex-start;
     padding: 0rem;
-    margin-top: 4rem;
+    margin-top: 9rem;
+}
+
+.heading-title {
+    font-size: 4rem;
+    font-family: 'Titillium Web', sans-serif;
+    color: #398DE7;
+    margin-bottom: 25px;
 }
 
 .heading {
-    font-size: 3rem;
+    font-size: 35px;
+    font-weight: 400;
     font-family: 'Titillium Web', sans-serif;
-    color: #1b518b;
-    margin-bottom: 16px;
+    color: #398DE7;
+    margin-bottom: 25px;
 }
 
 .sub-heading {
-    font-size: 4rem;
-    font-family: 'Titillium Web', sans-serif;
-    color: #1b518b;
     margin: auto;
+    color: #398DE7;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2.4em;
+    font-weight: 600;
+    line-height: 1.2em;
+    letter-spacing: 2.4px;
+    text-shadow: 0px 0px 0px rgba(0,0,0,0.3);
 }
 
 .paragraph {
     width: 23rem;
     font-family: 'Titillium Web', sans-serif;
     font-family: none;
-    color: #1b518b;
+    color: #398DE7;
     font-size: 20px;
     letter-spacing: 1px;
     line-height: 28px;
 }
 
-.buttons{
-    margin-top: 1.5rem;
+.buttons {
+    margin-top: 3.5rem;
 }
 
-.login{
-    border: 2px solid #1b518b;
+.login {
+    border: 2px solid #398DE7;
     font-family: 'Titillium Web', sans-serif;
-    color: #1b518b;
+    color: #398DE7;
     font-size: 19px;
     text-decoration: none;
     padding: 5px 30px;
@@ -125,10 +139,10 @@
     cursor: pointer;
 }
 
-.sign-up{
-    border: 2px solid #1b518b;
+.sign-up {
+    border: 2px solid #398DE7;
     font-family: 'Titillium Web', sans-serif;
-    color: #1b518b;
+    color: #398DE7;
     font-size: 19px;
     text-decoration: none;
     padding: 5px 30px;
@@ -156,45 +170,52 @@
 
 .info-para {
     font-family: 'Staatliches', cursive;
-    color: #1b518b;
+    color: #398DE7;
     margin-top: 1rem;
     text-align: center;
     font-size: 20px;
 }
 
 .modal-title {
-    color: #1b518b;
+    color: #398DE7;
 }
 
-@media screen and (max-width: 902px){
-    .bg-image{
+@media screen and (max-width: 902px) {
+    .bg-image {
         display: none;
     }
-    .logo{
+
+    .logo {
         margin-left: 8px;
     }
-    .header{
+
+    .header {
         display: flex;
         flex-direction: column;
-        
+
     }
+
     .logo {
         width: 30rem;
         margin-bottom: 1rem;
     }
 }
-@media screen and (max-width: 509px){
-    .logo{
-        width: 20rem;    
+
+@media screen and (max-width: 509px) {
+    .logo {
+        width: 20rem;
         margin-left: 8px;
     }
-    .header{
+
+    .header {
         margin: 0;
     }
-    .btn-1, .btn-2 {
-        border: 2px solid #1b518b;
+
+    .btn-1,
+    .btn-2 {
+        border: 2px solid #398DE7;
         font-family: 'Titillium Web', sans-serif;
-        color: #1b518b;
+        color: #398DE7;
         font-size: 19px;
         text-decoration: none;
         /* padding: 5px 30px; */
@@ -205,22 +226,27 @@
         width: 7rem;
         text-align: center;
     }
+
     .main-body {
         padding: 1rem;
         margin: 0;
         margin-top: 4rem;
     }
-    .heading{
+
+    .heading {
         font-size: 2rem;
     }
-    .sub-heading{
+
+    .sub-heading {
         font-size: 3rem;
     }
-    .left-content{
+
+    .left-content {
         padding: 0;
         margin-top: 2rem;
     }
-    .muhtadi{
+
+    .muhtadi {
         margin-right: 10px;
     }
 }
